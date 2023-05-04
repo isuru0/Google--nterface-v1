@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" href="images/google-g-2015-logo-png-transparent.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--====================================================== Navigation Bar =====================================================-->
+  <!--/ Navigation row /-->
+  <div class="nav-row">
+
+    <!--// Column 01 //-->
+    <div class="col-1">
+      <ul>
+        <li class="nav-text">About</li>
+        <li class="nav-text">Store</li>
+      </ul>
+    </div>
+
+     <!--// Column 02 //-->
+    <div class="col-2" onclick="hiddenClick()"></div>
+
+    <!--// Column 03 //-->
+    <div class="col-3">
+      <ul>
+        <li class="nav-text">Gmail</li>
+        <li class="nav-text">Images</li>
+        <li><img src="images/menu3.png" alt="menu icon" onclick="apps()"></li>
+        <li class="sign">Sign in</li>
+      </ul>
+
+      <!--/// Google Apps ///-->
+      <div class="apps" id="googleApps">
+        <ul>
+          <li><img src="images/google apps/app-account.png"><p>Account</p></li>
+          <li><img src="images/google apps/app-search.png"><p>Search</p></li>
+          <li><img src="images/google apps/app-business.png" id="img3"><p title="Business Profile Manager">Business...</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-maps.png" id="img4"><p>Maps</p></li>
+          <li><img src="images/google apps/app-youtube.png" id="img5"><p>Youtube</p></li>
+          <li><img src="images/google apps/app-play.png" id="img6"><p>Play</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-news.png"><p>News</p></li>
+          <li><img src="images/google apps/app-gmail.png"><p>Gmail</p></li>
+          <li><img src="images/google apps/app-meet.png"><p>Meet</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-chat.png"><p>Chat</p></li>
+          <li><img src="images/google apps/app-contact.svg" id="img11"><p>Contacts</p></li>
+          <li><img src="images/google apps/app-drive.png"><p>Drive</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-calendar.png"><p>Calendar</p></li>
+          <li><img src="images/google apps/app-translate.png"><p>Translate</p></li>
+          <li><img src="images/google apps/app-photos.png"><p>Photos</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-adcenter.svg"><p title="My Ad Center">My Ad Ce...</p></li>
+          <li><img src="images/google apps/app-shopping.png"><p>Shopping</p></li>
+        </ul>
+        <hr class="hr-line1">
+
+        <ul>
+          <li><img src="images/google apps/app-finance.png"><p>Finance</p></li>
+          <li><img src="images/google apps/app-docs.png"><p>Docs</p></li>
+          <li><img src="images/google apps/app-sheets.png"><p>Sheets</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-sides.png"><p>Slides</p></li>
+          <li><img src="images/google apps/app-books.png"><p>Books</p></li>
+          <li><img src="images/google apps/app-blogger.png"><p>Blogger</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-hangouts.png"><p>Hangouts</p></li>
+          <li><img src="images/google apps/app-keep.png"><p>Keep</p></li>
+          <li><img src="images/google apps/app-jamboard.png"><p>Jamboard</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-classroom.png"><p>Classroom</p></li>
+          <li><img src="images/google apps/app-earth.png"><p>Earth</p></li>
+          <li><img src="images/google apps/app-collections.png"><p>Collections</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-arts.png"><p title="Arts and Culture">Arts and C...</p></li>
+          <li><img src="images/google apps/app-ads.png"><p>Google Ads</p></li>
+          <li><img src="images/google apps/app-podcasts.png"><p>Podcasts</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-one.png"><p>Google One</p></li>
+          <li><img src="images/google apps/app-travel.png" id="imgm4"><p>Travel</p></li>
+          <li><img src="images/google apps/app-forms.png"><p>Forms</p></li>
+        </ul>
+        <ul>
+          <li><img src="images/google apps/app-store.png" id="imgm2"><p title="Google Store">Google St...</p></li>
+          <li><img src="images/google apps/app-chrome.png"><p title="Chrome Web Store">Chrome W...</p></li>
+        </ul>
+
+        <div class="apps-more-btn">
+          <p>More from Google</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+<!--========================================================================================================================-->
+
+<!--= Help to hidden google apps box when click the other area =-->
+<div onclick="hiddenClick()" class="backarea">
+
+<!--================================================== Main Content ========================================================-->
+<!--/ Containeer /-->
+  <div class="containeer">
+
+    <!--// Google Logo //-->
+    <div class="logo">
+        <h1 class="g">G</h1>
+        <h1 class="oe">o</h1>
+        <h1 class="o">o</h1>
+        <h1 class="g">g</h1>
+        <h1 class="l">l</h1>
+        <h1 class="oe">e</h1>
+    </div>
+
+    <!--// Searchbar //-->
+    <div><input type="text" class="searchbar"></div>
+
+    <!--// Buttons //-->
+    <div class="btn">
+      <ul>
+        <li>Google Search</li>
+        <li>I'm Feeling Lucky</li>
+      </ul>
+    </div>
+
+    <!--// Language (lang) //-->
+    <div class="lang">
+      <ul>
+        <li class="lang-labal">Google offered in: </li>
+        <li class="lang-list">中文(简体)</li>
+        <li class="lang-list">Bahasa Melayu</li>
+        <li class="lang-list">தமிழ்</li>
+      </ul>
+    </div>
+
+  </div>
+<!--========================================================================================================================-->
+
+<!--===================================================== Footer ===========================================================-->
+<div class="footer">
+
+  <!--/ First Row /-->
+  <div class="country"><p>Singapore</p></div>
+
+  <!--/ Second Row /-->
+  <div class="footer-row">
+
+    <!--// Second row - Left column //-->
+    <div class="left-footer">
+      <ul>
+        <li>Advertising</li>
+        <li>Business</li>
+        <li>How Search works</li>
+      </ul>
+    </div>
+
+    <!--// Second row - Middle column //-->
+    <div class="middle-footer"></div>
+
+    <!--// Second row - Right column //-->
+    <div class="right-footer">
+      <ul>
+        <li>Privacy</li>
+        <li>Teams</li>
+        <li>Settings</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+<!--========================================================================================================================-->
+
+<!--= Close the background div ( help to google apps hidden ) =-->
+</div>
+
+<!--=================================================== JavaScript =========================================================-->
+<script src="action.js"></script>
+<!--========================================================================================================================-->
+</body>
+</html>
