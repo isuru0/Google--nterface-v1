@@ -19,3 +19,10 @@ function hiddenClick(){
         appsbox.style.display = "none";
     }
 }
+
+// Search Action
+function searchGoogle(){
+    var searchinput = document.getElementById("searchBar").value;
+    console.log(searchinput);
+    window.location = "https://www.google.com/search?q=" + (searchinput);
+}
