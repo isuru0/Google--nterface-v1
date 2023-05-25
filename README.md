@@ -5,5 +5,5 @@
 ** Enter the text, then click Search button it goto google search result page.
 
 
-![Alt text](MDPic/google%20%20main%20interface.jpg)
-![Alt text](MDPic/google%20apps.jpg)
+![Alt text](images/MDPic/google%20%20main%20interface.jpg)
+![Alt text](images/MDPic/google%20apps.jpg)
