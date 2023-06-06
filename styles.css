@@ -211,6 +211,7 @@ li{
 }
 .lang-list:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /* ------- Footer -------- */
@@ -243,6 +244,7 @@ li{
 }
 .left-footer ul li:hover, .right-footer ul li:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 .middle-footer{
     flex-basis: 920px;

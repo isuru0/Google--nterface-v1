@@ -16,8 +16,8 @@
     <!--// Column 01 //-->
     <div class="col-1">
       <ul>
-        <li class="nav-text">About</li>
-        <li class="nav-text">Store</li>
+        <li class="nav-text" onclick="linkabout()">About</li>
+        <li class="nav-text" onclick="linkstore()">Store</li>
       </ul>
     </div>
 
@@ -27,10 +27,10 @@
     <!--// Column 03 //-->
     <div class="col-3">
       <ul>
-        <li class="nav-text">Gmail</li>
-        <li class="nav-text">Images</li>
+        <li class="nav-text" onclick="linkgmail()">Gmail</li>
+        <li class="nav-text" onclick="linkimages()">Images</li>
         <li><img src="images/menu3.png" alt="menu icon" onclick="apps()"></li>
-        <li class="sign">Sign in</li>
+        <li class="sign" onclick="linksignin()">Sign in</li>
       </ul>
 
       <!--/// Google Apps ///-->
@@ -165,9 +165,9 @@
     <!--// Second row - Left column //-->
     <div class="left-footer">
       <ul>
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>How Search works</li>
+        <li onclick="linkadvertising()">Advertising</li>
+        <li onclick="linkbusiness()">Business</li>
+        <li onclick="linkhsw()">How Search works</li>
       </ul>
     </div>
 
@@ -177,9 +177,9 @@
     <!--// Second row - Right column //-->
     <div class="right-footer">
       <ul>
-        <li>Privacy</li>
-        <li>Teams</li>
-        <li>Settings</li>
+        <li onclick="linkprivacy()">Privacy</li>
+        <li onclick="linkteams()">Teams</li>
+        <li onclick="linksettings()">Settings</li>
       </ul>
     </div>
   </div>
