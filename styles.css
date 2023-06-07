@@ -130,6 +130,7 @@
 .apps-more-btn:hover{
     box-shadow: 0 0 1px #d2e3fd;
     background-color: #c3d4fb26;
+    cursor: pointer;
 }
 
 
