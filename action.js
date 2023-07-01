@@ -21,6 +21,14 @@ function hiddenClick(){
 }
 
 // Search Action
+var searchText = document.getElementById("searchBar");
+searchText.addEventListener("keypress", function(searchG) {
+    if (searchG.key === "Enter"){
+        searchG.preventDefault();
+        document.getElementById("search_btn").click();
+    }
+});
+
 function searchGoogle(){
     var searchinput = document.getElementById("searchBar").value;
     window.location = "https://www.google.com/search?q=" + (searchinput);
