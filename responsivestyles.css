@@ -1,0 +1,23 @@
+@media(max-width: 800px){
+    .col-2{
+        width: 35%;
+    }
+
+    .apps{
+        width: 40%;
+        background-color: #fff;
+        position: absolute;
+    }
+
+    .logo{
+        margin-left: 25%;
+    }
+
+    .searchbar{
+        width: 75%;
+    }
+
+    .middle-footer{
+        flex-basis: 150px;
+    }
+}
